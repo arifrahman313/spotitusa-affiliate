@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.bg-blog-one{
+min-height: 50vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/blog/post-1-pic-2.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.bg-blog-two{
+min-height: 50vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/blog/post-2-pic-2.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.bg-blog-one h5 {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.blog-title span{
+    color: rgb(168, 168, 168);
+}
+.blog-title span a{
+    color: rgb(168, 168, 168);
+}
+.blog-main ol{
+    list-style-type: decimal;
+}
+.blog-main ul{
+    list-style-type: disc;
+}
+.blog-main ol li{
+    padding-left: 20px;
+}
+.blog-main h3{
+padding: 15px 0px;
+font-size: 25px;
+color: black !important;
+font-family: "Roboto", sans-serif;
+
+}
+.blog-main p{
+    padding: 10px 0px;
+    font-size: 18px;
+    color: rgb(82, 82, 82) !important;
+    font-family: "Roboto", sans-serif;
+}
+.section{
+    background-color: rgb(245, 245, 245);
+}
+.blog-main{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    padding-top: 50px;
+    box-shadow: 0px 0px 15px #ececec;
+    border-top: 3px solid orange;
+    box-shadow: 2px 2px 12px rgb(187,187,187);
+}
+.blog-main img{
+    padding-bottom: 15px;
+}
+
+/* widgets */
+.sidebar-widget{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 2px 12px rgb(187, 187, 187);
+    border-top: 3px solid orange;
+    margin-bottom: 50px;
+}
+.blog-wrapper{
+    padding: 50px 0px;
+}
+.recent-post-widget h3{
+    
+
+}
